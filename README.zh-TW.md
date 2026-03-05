@@ -14,23 +14,13 @@ ln -s /path/to/agent-skills/skills <agent-search-dir>/skills
 
 一些常見 Agent 的搜尋路徑：
 
-<details>
-<summary>
-
-#### Claude Code
-
-</summary>
+<details><summary><b>Claude Code</b></summary>
 
 - `$HOME/.claude/skills`
 
 </details>
 
-<details>
-<summary>
-
-#### Codex
-
-</summary>
+<details><summary><b>Codex</b></summary>
 
 - `$HOME/.codex/skills`
 - `$HOME/.agents/skills`
@@ -38,23 +28,15 @@ ln -s /path/to/agent-skills/skills <agent-search-dir>/skills
 </details>
 
 <details>
-<summary>
+<summary><b>Gemini CLI</b></summary>
 
-#### Gemini CLI
-
-</summary>
 
 - `$HOME/.gemini/skills`
 - `$HOME/.agents/skills`
 
 </details>
 
-<details>
-<summary>
-
-#### GitHub Copilot
-
-</summary>
+<details><summary><b>GitHub Copilot</b></summary>
 
 - `$HOME/.copilot/skills`
 - `$HOME/.claude/skills`
@@ -62,29 +44,24 @@ ln -s /path/to/agent-skills/skills <agent-search-dir>/skills
 
 </details>
 
-<details>
-<summary>
-
-#### Google Antigravity
-
-</summary>
+<details><summary><b>Google Antigravity</b></summary>
 
 - `$HOME/.gemini/antigravity/skills`
 
 </details>
 
-<details>
-<summary>
-
-#### OpenCode
-
-</summary>
+<details><summary><b>OpenCode</b></summary>
 
 - `$HOME/.config/opencode/skills`
 - `$HOME/.claude/skills`
 - `$HOME/.agents/skills`
 
 </details>
+
+
+> [!NOTE]
+> 以上都是使用者範圍的搜尋路徑，專案範圍的路徑大部分都是直接放到工作目錄底下即可。
+> 其他特殊路徑請參考各個 Agent 提供者的官方文件。
 
 ## 參考資料
 
