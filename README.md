@@ -64,6 +64,13 @@ Common skill search paths for several agents:
 > For project scope paths, you can simply place them under the working directory in most cases.  
 > For other special paths, please refer to each agent provider's official documentation.
 
+## Skill List
+
+### uv
+
+Adapted from the official Claude Code plugin repository, [astral-sh/claude-code-plugins](https://github.com/astral-sh/claude-code-plugins), with small modifications.  
+This enables agents to use [uv](https://github.com/astral-sh/uv) to manage Python projects.
+
 ## References
 
 - [Agent Skills - Gemini CLI Docs](https://geminicli.com/docs/cli/skills/)

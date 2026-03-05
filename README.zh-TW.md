@@ -63,6 +63,13 @@ ln -s /path/to/agent-skills/skills <agent-search-dir>/skills
 > 以上都是使用者範圍的搜尋路徑，專案範圍的路徑大部分都是直接放到工作目錄底下即可。  
 > 其他特殊路徑請參考各個 Agent 提供者的官方文件。
 
+## Skill 列表
+
+### uv
+
+取自官方 [astral-sh/claude-code-plugins](https://github.com/astral-sh/claude-code-plugins) Claude Code 插件儲存庫，有稍作修改。  
+讓 Agent 能夠使用 [uv](https://github.com/astral-sh/uv) 管理 Python 專案。
+
 ## 參考資料
 
 - [Agent Skills - Gemini CLI Docs](https://geminicli.com/docs/cli/skills/)
