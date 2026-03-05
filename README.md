@@ -60,7 +60,8 @@ Common skill search paths for several agents:
 
 
 > [!NOTE]
-> All of the paths above are user scope search paths. For project scope paths, you can simply place them under the working directory in most cases.
+> All of the paths above are user scope search paths.  
+> For project scope paths, you can simply place them under the working directory in most cases.  
 > For other special paths, please refer to each agent provider's official documentation.
 
 ## References
